@@ -1,0 +1,327 @@
+/* lg */ 
+@media (min-width: 1200px) {
+
+}
+@media (min-width: 992px){
+	.vegas-background {
+		width: 100% !important;
+		height: auto !important;
+		left: 0px !important;
+	}
+}
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+	#home-carousel  .item {
+		height: 500px;
+	}
+
+	.carousel-caption h1 {
+		font-size:26px;
+		margin-bottom:0;
+		line-height:27px;
+		letter-spacing:2px;
+		font-weight:100;
+	}
+
+	.carousel-caption h2 {
+		font-size:51px;
+		font-weight:600;
+		margin-top:0px;
+		text-transform:lowercase;
+		letter-spacing:2px;
+		margin-bottom:20px;
+	}
+
+}
+
+/* sm */
+@media (min-width: 769px) and (max-width: 991px) {
+
+	.st-navbar ul li a{
+		margin-left: 13px;
+		margin-right: 13px;
+	}
+
+	#home-carousel  .item {
+		height: 500px;
+	}
+
+	.carousel-caption h1 {
+		font-size:26px;
+		margin-bottom:0;
+		line-height:27px;
+		letter-spacing:2px;
+		font-weight:100;
+	}
+
+	.carousel-caption h2 {
+		font-size:51px;
+		font-weight:600;
+		margin-top:0px;
+		text-transform:lowercase;
+		letter-spacing:2px;
+		margin-bottom:20px;
+	}
+
+	#about-us .about-us {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.scroll-up{
+		display: none !important;
+	}
+
+
+	#fun-facts .col-md-3:nth-child(2) .fun-fact{
+		border-right: 0px;
+	}
+
+	#testimonial{
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+
+
+}
+@media (max-width: 1170px) {
+	.container{
+		width:100%;
+	}
+	.st-navbar .navbar-toggle{
+
+	}
+	ul.hotline{
+		display: none;
+	}
+	form#searchform{
+	}
+	input#s{
+		width: 80%;
+	}
+	.cate-info {
+		width:100%
+	}
+	#advs figcaption{
+		margin:20px 0px;
+	}
+	.st-navbar ul li a{
+		padding: 15px 12px;
+	}
+	#about-us .about-us .btn-send {
+		margin-top: 12px;
+	}
+	#advs .col-md-4{
+		width:33.3%;
+		float: left;
+	}
+	#quangcao {
+		display: none;
+	}
+	#sale .col-md-6, #sale .col-md-2{
+		width:50%;
+		float: left;
+	}
+	.gift, .tit-pr-sale{
+		display: block;
+		float: none;
+		text-align: center;
+		margin: 3px 0px;
+	}   
+}
+/* xs */
+@media (max-width: 769px) {
+
+	.logo{
+		margin-left: 15px;
+	}
+
+	.navbar-nav{
+		display:none;
+	}
+	.navbar-toggle{
+		display:block;
+	}
+	.st-navbar .navbar-collapse ul{
+		display:none;
+	}
+
+	#home-carousel  .item {
+		height: 300px;
+	}
+
+	.carousel-caption h1 {
+		font-size:16px;
+		margin-bottom:0;
+		line-height:27px;
+		letter-spacing:2px;
+		font-weight:100;
+	}
+
+	.carousel-caption h2 {
+		font-size:31px;
+		font-weight:600;
+		margin-top:0px;
+		text-transform:lowercase;
+		letter-spacing:2px;
+		margin-bottom:20px;
+	}
+
+	.scroll-up{
+		display: none !important;
+	}
+
+	.footer-social-icons {
+		text-align: center;
+		margin-bottom: 15px;
+	}
+
+	.copyright{
+		text-align: center;
+	}
+
+	.contact-info{
+		margin-bottom: 50px;
+	}
+
+	#fun-facts .fun-fact{
+		border-right: 0px;
+		margin-bottom: 20px;
+	}
+
+	#about-us .our-office{
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	#testimonial{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	#about-us .about-us {
+		padding-left: 5%;
+		padding-right: 5%;
+		padding-top: 10%;
+		padding-bottom: 10%;
+	}
+	.st-service {
+		margin-top: 50px;
+	}
+	#our-team .col-md-2.col-sm-6{
+		width:33.3%;
+		float:left;
+	}
+	.btnsubmit{
+		background-color: #1DC483;
+		color: #fff;
+		border: 1px solid #1DC483;
+	}
+
+}
+@media (max-width: 696px){
+	.por-item {
+		display: block;
+	}
+	#fun-facts .col-sm-6.col-md-3{
+		width:50%;
+		float: left;
+	}
+	.hot-sale{
+		display: none;
+	}
+} 
+@media (max-width: 769px){
+	#menu-footer .navbar-toggle{
+		float: none;
+		padding: 0;
+		border-radius: 0;
+		text-align: center;
+		width: 100%;
+		margin: 0px;
+		line-height: 50px;
+		font-size: 20px;
+		text-transform: uppercase;
+		color: #fff;
+		font-family: Roboto Slab;
+		cursor: pointer;
+	}
+	#menu-footer #mobile-footer{
+		display:none;
+		padding: 0px;
+		border: 1px solid #eee;
+		list-style: none;
+		background-color: #fff;
+		position: absolute;
+		width: 100%;
+		left: 0px;
+		z-index: 999;
+	}
+	#menu-footer #mobile-footer li{
+		line-height:35px;
+	}
+	#menu-footer #mobile-footer li a{
+		padding: 5px 15px;
+		line-height: 25px;
+		color: #333;
+		display: block;
+	}
+	#menu-footer #mobile-footer  li:hover a, #menu-footer #mobile-footer  li.current a, #menu-footer #mobile-footer  ul li:focus {
+		background: #1DC483;
+		color: #fff;
+	}
+}
+/* XS Portrait */
+@media (max-width: 481px) {
+
+	#advs .col-md-4 {
+		float: none;
+		width: 100%;
+	}
+	#advs .col-md-4{
+		width:100%;
+		float: none;
+	}
+	#quangcao {
+		display: none;
+	}
+	#sale .col-md-6, #sale .col-md-2{
+		width:100%;
+		float: none;
+	}
+	section#sale {
+		margin: 20px 0;
+	}
+	.por-item .ex{
+		display: none;
+	}
+	#fun-facts .text-center{
+		text-align: left;
+	}
+	#our-team .col-md-2.col-sm-6{
+		width:100%;
+	}
+	.prod-title h2{
+		font-size:20px;
+	}
+	.contact-footer{
+		text-align:left;
+	}
+	.logo img{
+		width:100%;
+	}
+	.rte img{
+		width:100%;
+	}
+	.footer-top{
+		margin-top:20px;
+	}
+	.no-padding-right{
+		padding:0px;
+	}
+	.no-padding-left{
+		padding:0px;
+	}
+}
