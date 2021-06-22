@@ -33,15 +33,15 @@ export default class Header extends React.Component {
                                             </a>
                                         </div>
                                         <div className="slogan">
-                                            <span>Cửa hàng thực phẩm sạch</span>
+                                            <span>Truy xuất nguồn gốc sản phẩm</span>
                                         </div>
                                     </div>
-                                    <div className="col-md-6 col-sm-8 col-xs-12 col-md-offset-3 col-sm-offset-2">
+                                    {/* <div className="col-md-6 col-sm-8 col-xs-12 col-md-offset-3 col-sm-offset-2">
                                         <form action="/search" method="get" role="search" id="searchform" className="form-search">
                                             <input type="text" placeholder="Từ khóa tìm kiếm..." defaultValue id="s" className="search-query" name="query" />
                                             <button id="searchsubmit" className="search-icon" type="submit"><i className="fa fa-search" /></button>
                                         </form>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>
